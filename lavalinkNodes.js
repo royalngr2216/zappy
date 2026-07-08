@@ -14,17 +14,16 @@
 module.exports = [
   {
     name: "main-node",
-    host: "lava-v4.ajieblogs.eu.org",
+    host: "lavalinkv4.serenetia.com",
     port: 443,
-    password: "https://dsc.gg/ajidevserver",
+    password: "https://seretia.link/discord",
     secure: true,
   },
   {
-    // Backup node — Riffy will fail over to this if the first one is unreachable
     name: "backup-node",
-    host: "lavalink.heavencloud.in",
+    host: "lavalink.jirayu.net",
     port: 443,
-    password: "heavencloud",
+    password: "youshallnotpass",
     secure: true,
   },
 ];
