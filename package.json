@@ -1,0 +1,19 @@
+{
+  "name": "zappy-lite",
+  "version": "1.0.0",
+  "description": "A Discord music bot with z.play and z.search commands, powered by Riffy/Lavalink",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "riffy": "^1.0.6",
+    "express": "^4.21.1",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
